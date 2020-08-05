@@ -8,7 +8,7 @@ The goal here is coding a microservice template using dotnetcore and C#
 
 Run this command in the console:
 ```
-dotnet run
+$ dotnet run
 ```
 If everything is okay, you'll see this message:
 ```
@@ -20,7 +20,7 @@ info: Microsoft.Hosting.Lifetime[0]
 You can also use the terminal :)
 
 ```
-curl https://localhost:5001/books
+$ curl https://localhost:5001/books
 ```
 
 You'll see:
@@ -36,4 +36,9 @@ fail: demo_microservices_netcore.Api.Controllers.BooksController[0]
 ```
 
 If you don't like the terminal you can use Postman :D
+
+**How to build a Docker image**
+```
+$ docker-compose build --no-cache
+```
 
