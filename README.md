@@ -1,6 +1,8 @@
-# netcore-microservices-example
+# netcore-microservices-example (In progress)
 Goal: Use HTTP GET (without parameters) and error handling
+
 Based on: https://github.com/jersson/microservices-templates
+
 ---
 The goal here is coding a microservice template using dotnetcore and C#
 
@@ -17,7 +19,7 @@ info: Microsoft.Hosting.Lifetime[0]
 ```
 
 **How to test the code** </br>
-You can also use the terminal :)
+You can also use the terminal :smile:
 
 ```
 $ curl https://localhost:5001/books
@@ -35,9 +37,9 @@ fail: demo_microservices_netcore.Api.Controllers.BooksController[0]
       ...
 ```
 
-If you don't like the terminal you can use Postman :D
+If you don't like the terminal you can use Postman :smile:
 
-**How to build a Docker image**
+**How to build a Docker image to build and test the code**
 ```
 $ docker-compose build --no-cache
 ```
